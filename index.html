@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>GPblok - Container Potret dengan Monitor</title>
+    <title>PPT APP</title>
     <style>
         /* CSS untuk Halaman Kosong dengan Container Potret */
         html, body {
@@ -22,11 +22,11 @@
 
         .container {
             width: 100%;
-            max-width: 480px; /* Lebar maksimum untuk tampilan potret */
+            max-width: 400px; /* Lebar maksimum untuk tampilan potret */
             height: 100%;
-            max-height: 640px; /* Tinggi maksimum untuk tampilan potret */
+            max-height: 540px; /* Tinggi maksimum untuk tampilan potret */
             background-color: #222; /* Latar belakang container */
-            padding: 20px;
+            padding: 15px;
             box-sizing: border-box; /* Menyertakan padding dalam ukuran container */
             display: flex;
             flex-direction: column;
@@ -39,9 +39,9 @@
         }
 
         .monitor {
-            width: 80%; /* Lebar monitor */
-            max-width: 400px; /* Lebar maksimum monitor */
-            height: 60%; /* Tinggi monitor */
+            width: 100%; /* Lebar monitor */
+            max-width: 300px; /* Lebar maksimum monitor */
+            height: 40%; /* Tinggi monitor */
             background-color: #000; /* Latar belakang monitor */
             border: 5px solid #00ff00; /* Border hijau untuk monitor */
             border-radius: 10px; /* Sudut membulat */
@@ -54,13 +54,13 @@
             height: 100%;
             background-color: #111; /* Latar belakang layar monitor */
             border-radius: 8px; /* Sudut membulat untuk layar */
-            padding: 20px;
+            padding: 30px;
             box-sizing: border-box;
             overflow: hidden; /* Menyembunyikan konten yang melampaui layar */
         }
 
         .screen-content {
-            color: #0f0; /* Teks hijau */
+            color: red; /* Teks merah */
             text-align: center; /* Teks di tengah */
         }
 
@@ -69,7 +69,7 @@
             flex-direction: column;
             align-items: center; /* Menyelaraskan tombol ke tengah */
             gap: 10px; /* Jarak antara tombol */
-            margin-top: 10px; /* Jarak vertikal tombol dari monitor */
+            margin-top: 15px; /* Jarak vertikal tombol dari monitor */
         }
 
         .horizontal-buttons {
@@ -102,7 +102,7 @@
         }
 
         .button:active {
-            background-color: #009900; /* Warna latar belakang saat tombol ditekan */
+            background-color: red; /* Warna latar belakang saat tombol ditekan */
         }
     </style>
 </head>
