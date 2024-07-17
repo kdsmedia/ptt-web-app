@@ -1,0 +1,18 @@
+{
+  "name": "ptt-web-app",
+  "version": "1.0.0",
+  "description": "A web application for PTT (Push-to-Talk) with a monitoring system.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
