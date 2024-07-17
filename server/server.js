@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/api', require('./routes/api'));
-app.use('/auth', require('./routes/auth'));
+app.use('/auth', require('./routes/auth'));  // Baris ini harus ada
 app.use('/channel', require('./routes/channel'));
 app.use('/user', require('./routes/user'));
 
